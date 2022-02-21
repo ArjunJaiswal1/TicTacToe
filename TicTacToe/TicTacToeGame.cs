@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace TIC_TAC_TOE
+namespace TicTacToe
 {
-    class TicTacToeGame
+    public class TicTacToeGame
     {
-        //declaring 1d array
+        
         char[] board = new char[10];
 
-        //adding empty spaces to each element
+        
         public void CreateBoard()
         {
             for (int i = 1; i < board.Length; i++)
@@ -19,3 +21,5 @@ namespace TIC_TAC_TOE
         }
     }
 }
+    
+
